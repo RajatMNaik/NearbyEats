@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurants Results</title>
+</head>
+<body>
+    <h1>Nearby Restaurants</h1>
+    <ul>
+        {% for restaurant in restaurants %}
+            <li>{{ restaurant }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Search Again</a>
+</body>
+</html>
